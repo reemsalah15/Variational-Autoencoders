@@ -87,7 +87,8 @@ $$
 
 The VAE was trained until **train/validation losses converged**, confirming **no overfitting**.
 
-examples/train_val_loss.png
+![Alt Text](examples/train_val_loss.png)
+
 
 ---
 
@@ -97,7 +98,8 @@ examples/train_val_loss.png
 
 The model successfully reconstructed validation images, confirming that the latent space captures meaningful facial features.
 
-examples/reconstructed.png
+
+![Alt Text](examples/reconstructed.png)
 
 ---
 
@@ -112,7 +114,9 @@ Using random sampling from the latent space:
 
 **Generated Results (2×5 Grid):**
 
-examples/generated_images.png
+![Alt Text](examples/generated_images.png)
+
+
 
 * The generated faces are:
 
@@ -144,5 +148,5 @@ examples/generated_images.png
 
 1. **10 Generated Images** – included above.
 2. **Code Repository** – Full training and generation code.
-3. **Report** – This document (Markdown/PDF).
+3. **Report** – This document (Markdown).
 
